@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Poppins:wght@200&display=swap');
+
+
+
+body {
+    background-color: rgb(34, 32, 31);
+}
+
+.fundo-nav {
+    background-color: rgb(12, 11, 11);
+}
+
+.cornav {
+    color: #ffffff;
+}
+
+.color-text {
+    color: white;
+}
+
+.spacing-textfont {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+}
+
+.spacing-textfont-top {
+    padding-top: 22px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.mondtext {
+    text-align: justify;
+}
+
+.liyuetext {
+    text-align: justify;
+}
+
+.spacing-bottom {
+    padding-bottom: 25px;
+}
+
+.kini-bau {
+    padding: 50px 0 50px;
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #ff5100, #ff6f2d);
+}
+
+::-webkit-scrollbar-track {
+    background: #0c0b0b;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.kini-footer {
+    padding: 25px 0 0 0
+}
+
+@media only screen and (max-width: 1399px) {
+    .cards {
+      display: none;
+    }
+
+    .navbar-light {
+        background-color: white;
+    }
+
+    .adicionais {
+        display: none;
+    }
+
+    .kini-paddings {
+        padding: 0 8% 0 8%;
+    }
+
+    .kini-img {
+        padding-bottom: 10%;
+    }
+
+    .kini-img {
+        text-align: center;
+    }
+}
