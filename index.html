@@ -37,8 +37,17 @@
                         <a class="nav-link active cornav" aria-current="page" href="#sobremim">Sobre</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active cornav" aria-current="page" href="#skills">Skills</a>
-                  </li>
+                      <a class="nav-link active cornav adicionais" aria-current="page" href="#personagens">Personagens</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle cornav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Skills
+                      </a>
+                    <ul class="dropdown-menu fundo-nav" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item cornav" href="#combate">Combate</a></li>
+                        <li><a class="dropdown-item cornav" href="#exploracao">Exploração</a></li>
+                        <li><a class="dropdown-item cornav" href="#artefatos">Artefatos</a></li>
+                    </ul>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle cornav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Locais
@@ -88,32 +97,73 @@
 
         <!-- SOBRE -->
 
-        <div class="spacing-textfont row align-items-center" id="sobremim">
-            <h1 class="text-center color-text spacing-textfont-top">
-              <div class="spinner-border text-light" role="status">
-              <span class="visually-hidden">Loading...</span>
-              </div> Sobre mim</h1>
-            <div class="col-xxl-4 kini-img">
-              <img class="kiniimg rounded-circle shadow-lg img-fluid border border-5" src="imgs/kini.png">
-            </div>
-            <div class="col-xxl-1">
-            </div>
-            <div class="col-xxl-7">
-              <p class="color-text">
-                Olá! Meu nome é Henrique Cardoso Lima, sou um main Hutao, estudo na ETEC MCM (Maria Cristina Medeiros), atualmente sou do primeiro ano do ensino médio cursando TI. Bem, como já diz o site, foi feito apenas para mostrar o meu nível de habilidade em um jogo chamado Genshin Impact, também criado apenas para eu testar o meu nível de habilidade com sites utilizando Bootstrap. Bem, como você pode ver, jogar Genshin Impact é um dos meus hobbies favoritos, ocupa bastante a minha cabeça e me ajuda a ficar calmo boa parte do tempo. Bem, agora que você me conhece um pouco, vamos ver um pouco mais sobre o site!
-              </p>
-              <span id="skills"></span>
-            </div>
-            </div>
-            <div style="padding-bottom: 100px;"></div>
+            <section id="sobremim">
+            <div class="spacing-textfont row align-items-center">
+                <h1 class="text-center color-text spacing-textfont-top">Sobre mim</h1>
+                <div class="col-xxl-4 kini-img">
+                  <img class="kiniimg rounded-circle shadow-lg img-fluid border border-5" src="imgs/kini.png">
+                </div>
+                <div class="col-xxl-1">
+                </div>
+                <div class="col-xxl-7">
+                  <p class="color-text">
+                    Olá! Meu nome é Henrique Cardoso Lima, sou um main Hutao, estudo na ETEC MCM (Maria Cristina Medeiros), atualmente sou do primeiro ano do ensino médio cursando TI. Bem, como já diz o site, foi feito apenas para mostrar o meu nível de habilidade em um jogo chamado Genshin Impact, também criado apenas para eu testar o meu nível de habilidade com sites utilizando Bootstrap. Bem, como você pode ver, jogar Genshin Impact é um dos meus hobbies favoritos, ocupa bastante a minha cabeça e me ajuda a ficar calmo boa parte do tempo. Bem, agora que você me conhece um pouco, vamos ver um pouco mais sobre o site!
+                  </p>
+                  <span id="skills"></span>
+                </div>
+                </div>
+                <div style="padding-bottom: 100px;"></div>
+            </section>
+
+            <!-- PERSONAGENS -->
+
+            <section id="personagens">
+              <h1 class="text-center color-text">Personagens</h1>
+              <p class="color-text">Bem, no Genshin temos personagens com visões e armamentos diferentes que podemos utilizar para combater os inimigos. É utilizado uma equipe/solo de até 1 até 4 personagens, onde cada um tem uma habilidade diferente que influência um ao outro. Abaixo irei mostrar os meus 3 personagens principais e também os que eu mais utilizo para quase tudo.</p>
+
+              <div class="row">
+                <div class="col-xxl-4">
+                  <div class="uwu">
+                      <div id="hutao">
+                          <h1 class="text-left h1padding">Hutao</h1>
+                          <p>Hutao é o meu personagem principal no Genshin, meu main DPS e um dos personagens mais fortes do jogo. Ela utiliza a visão Pyro como poder e lança como arma.</p>                    
+                          <img width="100%" src="imgs/hutaotext.png"></div>
+                          <a id="mostre_mais1">Veja mais</a>
+                  </div>
+                </div>
+                <div class="col-xxl-4">
+                  <div class="uwu">
+                      <div id="xingqiu">
+                          <h1 class="text-left h1padding">Xingqiu</h1>
+                          <p>Xingqiu é o meu melhor suporte de dano, ele buffa os ataques da Hutao em 1.5x, deixando ela com quase o dobro de dano. Ele utiliza a visão Hydro como poder e espada como arma.</p>                    
+                          <img width="100%" src="imgs/xingqiutext.png"></div>
+                          <a id="mostre_mais2">Veja mais</a>
+                  </div>
+                </div>
+                <div class="col-xxl-4">
+                  <div class="uwu">
+                      <div id="noelle">
+                          <h1 class="text-left h1padding">Noelle</h1>
+                          <p>Noelle é a minha melhor suporte de escudo, dando defesa a todos os personagens da equipe. Utiliza a visão Geo como poder e espadão como arma.</p>                    
+                          <img width="100%" src="imgs/noelletext.png"></div>
+                          <a id="mostre_mais3">Veja mais</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <script src="js/code.js"></script>
 
             <!-- SKILLS -->
 
+            <section>
             <h1 class="text-center color-text">Skills</h1>
             <p class="color-text mondtext text-center">Bem, as skills do game se tratam de avaliar o seu conhecimento sobre o mapa em geral, sua skill de luta, seu nivel de conhecimento sobre artefatos/builds e outros.</p>
+            
 
             <!-- COMBATE -->
 
+            <section id="combate">
             <div class="spacing-textfont row align-items-center">
               <h1 class="text-center color-text spacing-textfont-top">Combate</h1>
               
@@ -124,7 +174,6 @@
                       <p>Bem, no Genshin Impact a habilidade de combate e suas técnicas são muito bem valorizadas, até porque boa parte do jogo se trata disso. Mas como podemos avaliar isso? No geral devemos considerar as técnicas de combate com algum personagem em específico, para "resetar" seu ataque, ou para fazer algo diferente do comum dele por exemplo.</p>
                       <p>Abaixo você poderá ver o meu nível de skill, baseado em conhecimento de habilidades e de personagens, juntamente com truques de ataque.</p>
                     </div>
-                    <span id="dragonspine"></span>
                     <div class="progress" style="height: 25px; font-family: 'Outfit', sans-serif; font-size: 17.5px;">
                       <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
                     </div>
@@ -133,9 +182,11 @@
                   <img class="kiniimg" src="imgs/sword_icon.png">
                 </div>
               </div>
+            </section>
 
             <!-- EXPLORAÇÃO -->
     
+            <section id="exploracao">
             <div class="spacing-textfont row align-items-center">
               <h1 class="text-center color-text spacing-textfont-top">Exploração</h1>
               
@@ -146,7 +197,6 @@
                       <p>Em Teyvat a exploração pode ser ou grande, ou até mesmo infinita, nunca se sabe... mas também pode demorar muito e requer muita experiência com o mapa em si para podermos decifrar tudo pelo mapa, incluindo os enigmas aleatórios por ele. Eu particularmente adoro explorar o mapa nas horas vagas, principalmente quando eu acabo de terminar as minhas missões.</p>
                       <p>Abaixo você verá meu nível de skills de exploração, baseado também em conhecimento de mundo.</p>
                     </div>
-                    <span id="dragonspine"></span>
                     <div class="progress" style="height: 25px; font-family: 'Outfit', sans-serif; font-size: 17.5px;">
                       <div class="progress-bar" role="progressbar" style="width: 71%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">71%</div>
                     </div>
@@ -155,9 +205,11 @@
                   <img class="kiniimg" src="imgs/chesticon.png">
                 </div>
               </div>
+            </section>
 
             <!-- ARTEFATOS -->
 
+            <section id="artefatos">
             <div class="spacing-textfont row align-items-center">
               <h1 class="text-center color-text spacing-textfont-top">Artefatos</h1>
               
@@ -168,7 +220,6 @@
                       <p>Bem, em Genshin Impact temos muitos tipos de sets de artefatos, combinações diferentes, tudo isso para aumentar os status de seus personagens. Bem, no jogo temos muitas builds divertidas e muitas builds fortes, eu adoro criar os dois tipos de builds para todos os personagens, apenas para ver o dano que eu vou conseguir com eles ou algo do tipo.</p>
                       <p>Abaixo você verá meu nível de skills de artefatos e meu conhecimento sobre eles.</p>
                     </div>
-                    <span id="dragonspine"></span>
                     <div class="progress" style="height: 25px; font-family: 'Outfit', sans-serif; font-size: 17.5px;">
                       <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">95%</div>
                     </div>
@@ -178,14 +229,18 @@
                 </div>
                 <div style="padding-bottom: 100px;"></div>
               </div>
+            </section>
+          </section>
 
           <!-- LOCAIS -->
 
+          <section>
           <h1 class="text-center color-text">Locais</h1>
           <p class="color-text mondtext text-center">Em Teyvat temos vários locais onde podemos explorar, passar o tempo ou até mesmo apreciar a vista. Atualmente Teyvat está divida em 4 regiões Mondstadt, Dragonspine, Liyue e Inazuma, onde podemos nos aventurar e entender mais sobre o game. Bem, eu fiz um "cálculo" aproximado do quanto eu explorei desses locais do jogo, confira:</p>
 
           <!-- MONDSTADT -->
           
+          <section id="mondstadt">
             <div class="spacing-textfont row align-items-center">
             <h1 class="text-center color-text spacing-textfont-top">Mondstadt</h1>
               <div class="col-xxl-2">
@@ -197,15 +252,16 @@
                   <p class="color-text mondtext">
                       Mondstadt, o primeiro lugar do game e também o que eu mais cheguei a explorar. É raro encontrar alguém que tenha conseguido se aventurar por 100% desse local enorme, mas é possível encontrar muitas pessoas com uma boa % de exploração. Bem, meu nível de exploração não é tão grande, mas também não é tão pequeno. Tenho algumas localizações de Mondstadt com 100% de exploração e fico feliz por isso, é uma conquista um tanto quanto divertida! Abaixo você pode ver o meu nível aproximado de exploração *total*.
                   </p>
-                  <span id="dragonspine"></span>
                   <div class="progress" style="height: 25px; font-family: 'Outfit', sans-serif; font-size: 17.5px;">
                     <div class="progress-bar" role="progressbar" style="width: 84%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">84%</div>
                   </div>
               </div>
             </div>
+          </section>
 
           <!-- DRAGONSPINE -->
 
+          <section id="dragonspine">
           <div class="spacing-textfont row align-items-center">
             <h1 class="text-center color-text spacing-textfont-top">Dragonspine's Peak</h1>
               <div class="col-xxl-2">
@@ -223,9 +279,11 @@
                   <span id="liyue"></span>
               </div>
             </div>
+          </section>
 
           <!-- LIYUE -->
 
+          <section id="liyue">
           <div class="row align-items-center">
           <span id="liyue"></span>
             <div class="spacing-textfont row align-items-center">
@@ -246,9 +304,11 @@
                 </div>
               </div>
           </div>
+          </section>
 
           <!-- INAZUMA -->
-
+          
+          <section id="inazuma">
           <div class="row align-items-center">
             <div class="spacing-textfont row align-items-center">
             <h1 class="text-center color-text spacing-textfont-top">Inazuma</h1>
@@ -267,8 +327,12 @@
             </div>
             </div>
             </div>
+          </section>
+          </section>
+
             <!-- ADICIONAIS -->
 
+          <section id="adicionais">
             <div class="spacing-textfont row align-items-center adicionais">
               <h1 class="text-center color-text spacing-textfont-top spacing-bottom">Alguns adicionais</h1>
               <div class="col-xxl-12">
@@ -278,6 +342,7 @@
                   <span id="adicionais"></span>
               </div>
               </div>
+            </section>
   
             <!-- CARDS -->
   
